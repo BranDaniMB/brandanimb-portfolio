@@ -1,11 +1,15 @@
-import styles from './Footer.module.css'
-
 export default function Footer() {
   return (
     <>
-      <footer className={styles.footer}>
-        Made with <img src="/netliheart.svg" alt="Netlify Logo" className={styles.logo} /> for you
+      <footer className="footer has-text-centered">
+        <div className="is-text-center">
+          <img
+            src="https://bulma.io/images/made-with-bulma--white.png"
+            alt="Made with Bulma"
+            width="200"
+          />
+        </div>
       </footer>
     </>
-  )
+  );
 }
