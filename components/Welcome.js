@@ -1,9 +1,9 @@
-export default function Header({ title }) {
+export default function Header() {
   return (
-    <>
-      <figure className="image is-2by1">
+    <div className="welcome">
+      <figure className="image">
         <img src="/logo.svg" alt="logo" />
       </figure>
-    </>
+    </div>
   );
 }
